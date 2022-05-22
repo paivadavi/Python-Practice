@@ -4,7 +4,7 @@
 file_template = "file"
 for i in range(1, 11):
     file_name = "{}{}{}".format("file", str(i), ".txt")
-    with open (file_name,'w') as current_file:
+    with open(file_name, 'w') as current_file:
         current_file.write(str(i))
        
 #Problem encountered on JetBrainsAcademy
